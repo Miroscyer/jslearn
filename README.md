@@ -1,5 +1,5 @@
 # TypeScript
-
+```
 //类型注解
 let helloWorld: string = "Hello World";
 
@@ -41,3 +41,4 @@ function myFuncGene<T, G>(a: T, b: G): [T, G] {
     return [a, b];
 }
 myFuncGene<number, string>(12, '34');
+```
